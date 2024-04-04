@@ -21,6 +21,8 @@ p.copyright {
     mix-blend-mode: difference;
 }
 
+
+
 a:hover, a:focus {
 	color: #296dff;
 }
@@ -53,3 +55,5 @@ h2 {
     filter: invert(1);
     mix-blend-mode: difference;
 }
+
+  
