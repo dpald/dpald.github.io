@@ -58,6 +58,9 @@ h2 {
     filter: invert(1);
     mix-blend-mode: difference;
 }
+p.etusivun-kuva {
+    position:absolute;
+}
 
   @media screen and (max-width: 800px)
   {
