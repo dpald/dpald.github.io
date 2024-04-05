@@ -10,7 +10,8 @@ h1 {
     text-align: center;
     font-family: 'Georgia', serif;
     position: relative;
-    filter: invert(1);
+    color: black;
+        filter: invert(1);
     mix-blend-mode: difference;
 
 }
@@ -58,4 +59,38 @@ h2 {
     mix-blend-mode: difference;
 }
 
-  
+  @media screen and (max-width: 800px)
+  {
+    h1 {
+        font-size: 1em;
+        text-align: center;
+        font-family: 'Georgia', serif;
+        position: relative;
+        color: black;
+        filter: none;
+        mix-blend-mode: darken;
+    }
+      a.link {
+        position:absolute;
+        text-align: left;
+        top: 2%;
+        left: 10%;
+        font-size: 1em;
+        color: white;
+    }
+    a.link0 {
+        position:absolute;
+        text-align: right;
+        right: 10%;
+        top: 2%;
+        font-size: 1em;
+        color: black;
+    }
+    p.yleistieto {
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1em;
+        filter: none;
+        mix-blend-mode: darken;
+        background-color: white;
+    }
+  }
