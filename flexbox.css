@@ -1,8 +1,14 @@
 .header-main {
     width: 100%;
-    height: 60px;
+    height: 100px;
     background-color: #000;
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: normal;
+    border-radius: 12px;
+    gap: 50px 40px;
 }
 
 .header-main div {
@@ -11,18 +17,22 @@
 }
 
 .header-main .div-1 {
-    width: 100px;
+    width: 400px;
     background-color: #B381DE;
-
+    order: 1;
+    flex-basis: 100px;
 }
 .header-main .div-2 {
-    width: 100px;
+    width: 400px;
     background-color: #00ff37;
-
+    order: 2;
+    flex-basis: 100px;
+    flex-grow: 1;
 }
 
 .header-main .div-3 {
-    width: 100px;
+    width: 400px;
     background-color: #ff0000;
-
+    order: 3;
+    flex-basis: 100px;
 }
