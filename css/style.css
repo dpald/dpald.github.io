@@ -30,7 +30,7 @@ a:hover, a:focus {
 	color: #296dff;
 }
 a.link {
-    position: fixed;
+    position: absolute;
     text-align: left;
     top: 5%;
     left: 25%;
@@ -38,7 +38,7 @@ a.link {
     color: white;
 }
 a.link0 {
-    position: fixed;
+    position: absolute;
     text-align: right;
     right: 25%;
     top: 5%;
@@ -50,8 +50,13 @@ a.link0 {
 p.yleistieto {
     font-family:'Times New Roman', Times, serif;
     font-size: 1.5em;
-    filter: invert(1);
-    mix-blend-mode: difference;
+    filter:drop-shadow();
+    mix-blend-mode: none;
+    color: black;
+    background-color: white; 
+    border-radius: 1%;
+    outline-style: inset;
+
 
 }
 h2 {
@@ -66,6 +71,10 @@ h2 {
     content: "";
     display: table;
     clear: both;
+}
+.etusivun-kuva {
+    position: absolute;
+    right: 15%;
 }
 
   @media screen and (max-width: 800px)
