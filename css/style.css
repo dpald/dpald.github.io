@@ -112,8 +112,6 @@ h2 {
         filter: none;
         mix-blend-mode: darken;
         background-color: white;
-        position: absolute;
-        top: 10%;
     }
     .column {
         float: left;
