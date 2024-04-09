@@ -1,3 +1,4 @@
+/*CSS KOODI ETUSIVULLE; LAATU ON PASKAA*/
 body {
     background-image: url("https://wallpapercave.com/wp/m0sag04.jpg");
     background-repeat: no-repeat;
@@ -63,6 +64,7 @@ h2 {
     filter: invert(1);
     mix-blend-mode: difference;
 }
+/*TEKSTIN JA KUVAN COLUMNI ETUSIVULLA*/
 .column {
     float: left;
     width: 50%;
@@ -71,12 +73,12 @@ h2 {
     content: "";
     display: table;
     clear: both;
-}
+} 
 .etusivun-kuva {
     position: absolute;
     right: 15%;
 }
-
+/*PUHELIN NÄKYMÄN ASETUKSET*/
   @media screen and (max-width: 800px)
   {
     h1 {
@@ -110,5 +112,21 @@ h2 {
         filter: none;
         mix-blend-mode: darken;
         background-color: white;
+        position: absolute;
+        top: 10%;
+    }
+    .column {
+        float: left;
+        width: 50%;
+    }
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    } 
+    .etusivun-kuva {
+        position: absolute;
+        right: 15%;
+        bottom:30%
     }
   }
