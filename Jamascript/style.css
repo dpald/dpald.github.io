@@ -30,7 +30,7 @@ body.body-state1 .rocket {
 
 body.body-state3 .rocket,
 body.body-state4 .rocket {
-    bottom: 1000px;
+    bottom: 2000px;
 }
 .ground {
     background-color: green;
