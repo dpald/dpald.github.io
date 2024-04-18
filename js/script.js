@@ -9,3 +9,10 @@ window.addEventListener("load", function(){
 document.querySelector("#close").addEventListener("click", function(){
     document.querySelector(".popup").style.display = "none";
 });
+
+var sovellusnimi = document.getElementById("sovellusnimi")
+;
+var Discord = sovellusnimi.innerText;
+var nimi = Discord;
+sovellusnimi.innerHTML = nimi
+

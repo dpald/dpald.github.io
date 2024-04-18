@@ -1,6 +1,6 @@
 /*CSS KOODI ETUSIVULLE; LAATU ON PASKAA*/
 body {
-     background-image: url("https://wallpapercave.com/wp/m0sag04.jpg");
+     background-image: url("../img/reino.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -33,7 +33,7 @@ p.copyright {
     box-sizing: border-box;
 }
 .popup {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXN1Rb4IciNe-ZYMxXfcTDUCb-YwPpJF4Ic9HOJGojvMu-2Qj9eWz9laGBJUT6dZyozio&usqp=CAU);
+    background-image: url(../img/discord.png);
     background-position: center;
     background-size: cover;
     width: 450px;
@@ -103,7 +103,7 @@ p.yleistieto {
 
 
 }
-.naiset-linkki {
+.sivun-linkki {
     background-color: #FF0000;
     animation: bgColor 5s infinite linear;
 }
@@ -133,10 +133,14 @@ p.yleistieto {
       background-color: #FF1493;
     }
 }
-.etusivun-kuva {
+img {
     position: absolute;
-    right: 15%;
-    top: 25%;
+    right: 12.5%;
+    top: 15%;
+    max-width: 400px;
+    height: 400px;
+    
+
 }
 
 .wrapper-main {
@@ -175,6 +179,7 @@ h2 {
 /*PUHELIN NÄKYMÄN ASETUKSET*/
   @media screen and (max-width: 800px)
   {
+
     h1 {
         font-size: 1em;
         text-align: center;
@@ -207,7 +212,7 @@ h2 {
         mix-blend-mode: darken;
         background-color: white;
     }
-    .column {
+    /*.column {
         float: left;
         width: 50%;
     }
@@ -215,18 +220,29 @@ h2 {
         content: "";
         display: table;
         clear: both;
-    } 
-    .etusivun-kuva {
+    } */
+
+    /*.wrapper-main {
         position: absolute;
-        right: 15%;
-        bottom:30%
-    }
-    .wrapper-main {
-        position: absolute;
-        bottom: 5%;
-    }
+        bottom: 5%; */
+    
     .popup {
-        left:0%;
-        
+        background-image: url(../img/discord.png);
+        background-position: center;
+        background-size:contain;
+        width: 250px;
+        padding: 20px 30px;
+        position: absolute;
+        transform: translate(-50% -50%);
+        right: 5%;
+        bottom: 5%;
+        border-radius: 8px;
+        font-family: "Poppins", sans-serif;
+        display: none; }
+    } 
+    
+    img {
+        border-radius: 5px;
+        width: 200px;
     }
-  }
+  
