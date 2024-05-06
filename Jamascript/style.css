@@ -1,3 +1,4 @@
+/*VASEMMAN PUOLEN KUVA*/
 .left {
     position: fixed;
     background-color: aqua;
@@ -6,7 +7,7 @@
     top: 0;
     left: 0;
 }
-
+/*OIKEAN PUOLEN KUVA*/
 .right {
     position: fixed;
     background-image: url(../Jamascript/tausta.jpg);
@@ -16,6 +17,7 @@
     height: 100%;
     top: 0;
     right: 0;
+/*RAKETTI*/
 }
 .rocket {
     position: absolute;
@@ -31,7 +33,7 @@
 body.body-stat2 .rocket {
     background-image: url("");
 }
-
+/*STATET*/
 body.body-state3 .rocket,
 body.body-state4 .rocket{
     background-image: url(../Jamascript/jama1.png);
@@ -52,6 +54,8 @@ body.body-state3 .rocket,
 body.body-state4 .rocket {
     bottom: 2000px;
 }
+
+/*OIKEAN PUOLEN KUVAN MAA*/
 .ground {
     background-image: url(../Jamascript/maa.png);
     background-repeat: no-repeat;
