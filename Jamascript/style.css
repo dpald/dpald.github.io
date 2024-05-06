@@ -95,4 +95,10 @@ a.button {
 }
 a {
     background-color: gray;
+    font-size: 3em;
+}
+h1 {
+    font-size: 3em;
+    background-color: gray;
+    text-align: center;
 }
