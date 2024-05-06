@@ -4,6 +4,7 @@
     background-image: url(../Jamascript/js-img/kuva.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-size: 100%;
     width: 50%;
     height: 100%;
     top: 0;
