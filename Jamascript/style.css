@@ -1,7 +1,9 @@
 /*VASEMMAN PUOLEN KUVA*/
 .left {
     position: fixed;
-    background-color: aqua;
+    background-image: url(../Jamascript/kuva.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 50%;
     height: 100%;
     top: 0;
@@ -34,10 +36,12 @@ body.body-stat2 .rocket {
     background-image: url("");
 }
 /*STATET*/
+/*character*/
 body.body-state3 .rocket,
 body.body-state4 .rocket{
     background-image: url(../Jamascript/jama1.png);
 }
+/*räjähdys*/
 body.body-state5 .rocket {
     background-image: url(../Jamascript/Nimetön.png);
     width: 209px;
@@ -88,4 +92,7 @@ display: "";
 
 a.button {
     display: "";
+}
+a {
+    background-color: gray;
 }
