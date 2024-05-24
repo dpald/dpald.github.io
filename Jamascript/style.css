@@ -12,7 +12,7 @@
 /*OIKEAN PUOLEN KUVA*/
 .right {
     position: fixed;
-    background-image: url(../Jamascript/js-img/tausta.jpg);
+    background-image: url(../Jamascript/js-img/sun.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
@@ -28,7 +28,8 @@
     width: 143px;
     height: 272px;
     margin-left: -71.5px;
-    background: url(../Jamascript/js-img/jama.png) no-repeat 0 0;
+    background: url(../Jamascript/js-img/teletappifnaf-removebg-preview.png) no-repeat 0 0;
+    background-size: cover;
     transition: bottom 10000ms;
 }
 /*taustakuva*/
@@ -39,7 +40,7 @@ body.body-stat2 .rocket {
 /*character*/
 body.body-state3 .rocket,
 body.body-state4 .rocket{
-    background-image: url(../Jamascript/js-img/jama1.png);
+    background-image: url(../Jamascript/js-img/teletappifnaf-removebg-preview.png);
 }
 /*räjähdys*/
 body.body-state5 .rocket {
@@ -61,7 +62,7 @@ body.body-state4 .rocket {
 
 /*OIKEAN PUOLEN KUVAN MAA*/
 .ground {
-    background-image: url(../Jamascript/js-img/maa.png);
+    background-image: url(#);
     background-repeat: no-repeat;
     position: absolute;
     bottom: -15%;
